@@ -1,0 +1,19 @@
+[ N 2019-02-14 18:46:17.5338 23523/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-14 18:46:17.5732 23526/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-14 18:46:17.5735 23526/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-14 18:46:17.5846 23526/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 23526
+App 23557 output: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+App 23557 output: [ pid=23557, time=2019-02-14 23:46:20,721 ]: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+[ N 2019-02-14 18:46:20.9411 23526/T7 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 23557 output: Bad Request: /
+App 23557 output: [ pid=23557, time=2019-02-14 23:46:20,945 ]: Bad Request: /
+
+[ N 2019-02-14 18:50:59.1248 23526/T5 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-14 18:50:59.1249 23526/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-14 18:50:59.1249 23526/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 23557, application /home/kelly/proyectopython/miproyectodjango (development)
+[ N 2019-02-14 18:50:59.1251 23526/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-14 18:50:59.1252 23526/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-14 18:50:59.1254 23526/T5 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-14 18:50:59.1254 23526/T5 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-14 18:50:59.1279 23526/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 23557, application /home/kelly/proyectopython/miproyectodjango (development)
+[ N 2019-02-14 18:51:00.4159 23526/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished

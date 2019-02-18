@@ -1,0 +1,21 @@
+[ N 2019-02-14 18:51:20.1976 23979/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-14 18:51:20.2375 23982/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-14 18:51:20.2379 23982/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-14 18:51:20.2487 23982/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 23982
+App 24013 output: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+App 24013 output: [ pid=24013, time=2019-02-14 23:51:23,559 ]: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+[ N 2019-02-14 18:51:23.6381 23982/T9 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 24013 output: Bad Request: /
+App 24013 output: [ pid=24013, time=2019-02-14 23:51:23,731 ]: Bad Request: /
+App 24013 output: Not Found: /static/admin/css/fonts.css
+App 24013 output: [ pid=24013, time=2019-02-14 23:51:25,745 ]: Not Found: /static/admin/css/fonts.css
+
+[ N 2019-02-14 18:59:20.4962 23982/T7 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-14 18:59:20.4963 23982/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-14 18:59:20.4964 23982/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 24013, application /home/kelly/proyectopython/miproyectodjango (development)
+[ N 2019-02-14 18:59:20.4966 23982/Ta Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-14 18:59:20.4967 23982/Ta Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-14 18:59:20.4967 23982/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-14 18:59:20.4968 23982/T7 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-14 18:59:20.4995 23982/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 24013, application /home/kelly/proyectopython/miproyectodjango (development)
+[ N 2019-02-14 18:59:21.7779 23982/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
